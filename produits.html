@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Nos produits - PARFUMERIE L'AUTHENTIK</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+
+        <div class="logo">
+            <a href="index.html">L'AUTHENTIK</a>
+        </div>
+
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="produits.html" class="active">Nos produits</a>
+            <a href="promos.html">Promos & Offres</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+    </header>
+
+
+    <!-- PAGE PRODUITS -->
+    <main class="products-page">
+
+        <div class="products-header">
+
+            <p class="section-small-title">
+                PARFUMERIE L'AUTHENTIK
+            </p>
+
+            <h1>Nos parfums</h1>
+
+            <p>
+                Découvrez notre sélection de fragrances
+                pour révéler votre personnalité.
+            </p>
+
+        </div>
+
+
+        <!-- RECHERCHE -->
+        <div class="search-section">
+
+            <input
+                type="text"
+                id="searchProduct"
+                placeholder="Rechercher un parfum..."
+            >
+
+            <button onclick="searchProduct()">
+                🔍 Rechercher
+            </button>
+
+        </div>
+
+
+        <!-- PRODUITS -->
+        <section class="products-grid">
+
+
+            <!-- PRODUIT 1 -->
+
+<article class="product-card">
+
+    <div class="product-image">
+        <img
+            src="images/oclock1.png"
+            alt="O'Clock Ahmed Al Maghribi pour homme et femme">
+    </div>
+
+    <div class="product-info">
+
+        <h2>O'Clock Ahmed Al Maghribi</h2>
+
+        <p class="product-price">
+            30 000 FCFA
+        </p>
+
+        <button
+    class="description-button"
+    onclick="showProduct('O\'Clock Ahmed Al Maghribi pour homme et femme', 'images/oclock1.png', 'Un parfum unisexe, frais, fruité, épicé et élégant : 🍏 Pomme croquante • 🌿 Lavande aromatique • 🌶️ Cannelle chaleureuse • 🍊 Bergamote & pamplemousse pétillants • 🌸 Fleur d’oranger & muguet délicats • 🖤 Cuir élégant • 🍦 Vanille, musc, patchouli & ambre chaleureux', 30000)">
+    Voir la description
+</button>
+
+    </div>
+
+</article>
+
+
+            <!-- PRODUIT 2 -->
+
+            <article class="product-card">
+
+    <div class="product-image">
+        <img
+            src="images/musawhin.jpg"
+            alt="Musamam White Intense Lattafa Perfumes pour homme et femme">
+    </div>
+
+    <div class="product-info">
+
+        <h2>Musamam White Intense Lattafa Perfumes pour homme et femme</h2>
+
+        <p class="product-price">
+            30 000 FCFA
+        </p>
+
+        <button
+    class="description-button"
+    onclick="showProduct('Musamam White Intense Lattafa Perfumes pour homme et femme', 'images/musawhin.jpg', 'Un parfum unisexe, crémeux, épicé, boisé et élégant : 🍊 Orange & bergamote fraîches et pétillantes • 🌶️ Épices chaleureuses • 🥥 Noix de coco crémeuse • 🌸 Ylang-ylang floral et sensuel • ✨ Ambroxan, bois de santal, musc & benjoin', 30000)">
+    Voir la description
+</button>
+
+    </div>
+
+</article>
+            
+            <!-- PRODUIT 3 -->
+            <article class="product-card">
+
+    <div class="product-image">
+        <img
+            src="images/muscdev.jpg"
+            alt="Musc Devastating by Khalis Perfumes">
+    </div>
+
+    <div class="product-info">
+
+        <h2>Musc Devastating by Khalis Perfumes</h2>
+
+        <p class="product-price">
+            25 000 FCFA
+        </p>
+
+        <button
+    class="description-button"
+    onclick="showProduct('Musc Devastating by Khalis Perfumes', 'images/muscdev.jpg', 'Un parfum unisexe, oriental, chaud, épicé et sensuel : 🌿 Lavande aromatique • 🍊 Mandarine & bergamote pétillantes • 🌶️ Cannelle & clou de girofle épicés • 🍦 Vanille douce et enveloppante • ✨ Musc, fève tonka, ambre & bois chaleureux', 25000)">
+    Voir la description
+</button>
+
+    </div>
+
+</article>
+
+            <!-- PRODUIT 4 -->
+            <article class="product-card">
+
+    <div class="product-image">
+        <img
+            src="images/barez1.jpg"
+            alt="Barez Ard Al Zaafaran pour homme et femme">
+    </div>
+
+    <div class="product-info">
+
+        <h2>Barez Ard Al Zaafaran pour homme et femme</h2>
+
+        <p class="product-price">
+            15 000 FCFA
+        </p>
+
+        <button
+    class="description-button"
+    onclick="showProduct('Barez Ard Al Zaafaran pour homme et femme', 'images/barez1.jpg', 'Un parfum unisexe, floral, doux, élégant et sensuel : 🍋 Bergamote fraîche et pétillante • 🌸 Fleur d’oranger & jasmin délicats • 🌺 Tubéreuse crémeuse et envoûtante • 🍦 Vanille douce et chaleureuse • ✨ Musc & cèdre pour une touche raffinée', 15000)">
+    Voir la description
+</button>
+
+    </div>
+
+</article>
+
+            <!-- PRODUIT 5 -->
+            <article class="product-card">  
+                <div class="product-image">
+        <img
+            src="images/pepo.png"
+            alt="Pear Potion Spray Corporel">
+    </div>
+
+    <div class="product-info">
+
+        <h2>Pear Potion Spray Corporel</h2>
+
+        <p class="product-price">
+            2 500 FCFA
+        </p>
+
+        <button
+    class="description-button"
+    onclick="showProduct('Pear Potion Spray Corporel', 'images/pepo.png', 'Un spray corporel unisexe, fruité, frais, gourmand et pétillant : 🍐 Poire juteuse • 🍎 Pomme croquante • 🌸 Jasmin délicat • 🍮 Caramel doux et gourmand • 🫐 Framboise sucrée • ✨ Musc doux et sensuel', 2500)">
+    Voir la description
+</button>
+
+    </div>
+
+</article>      
+
+            <!-- PRODUIT 6 -->
+            <article class="product-card">  
+                <div class="product-image">
+        <img
+            src="images/scand1.jpeg"
+            alt="Scandal Le Parfum Jean Paul Gaultier">
+    </div>
+
+    <div class="product-info">
+
+        <h2>Scandal Le Parfum Jean Paul Gaultier</h2>
+
+        <p class="product-price">
+            8 000 FCFA
+        </p>
+
+        <button
+    class="description-button"
+    onclick="showProduct('Scandal Le Parfum Jean Paul Gaultier', 'images/scand1.jpeg', 'Un parfum féminin, gourmand, sensuel et élégant : 🍯 Miel doux et gourmand • 🌸 Gardénia floral et sensuel • 🌿 Patchouli profond et chaleureux • ✨ Une signature chypre gourmande, irrésistiblement séduisante', 8000)">
+    Voir la description
+
+</button>
+
+    </div>
+
+</article>      
+
+<!-- PRODUIT 7 -->
+            <article class="product-card">  
+                <div class="product-image">
+ <img
+            src="images/Urban Man Ultra Fragrance World.jpeg"
+            alt="Urban Man Ultra Fragrance World">
+    </div>
+
+    <div class="product-info">
+
+        <h2>Urban Man Ultra Fragrance World</h2>
+
+        <p class="product-price">
+            13 000 FCFA
+        </p>
+
+        <button
+    class="description-button"
+    onclick="showProduct('Urban Man Ultra Fragrance World', 'images/Urban Man Ultra Fragrance World.jpeg', 'Un parfum masculin, frais, fruité, épicé et séduisant : 🍐 Poire juteuse et sucrée • 🌿 Lavande aromatique • 🌶️ Cardamome épicée • 🌸 Fleur d’oranger & sauge • ✨ Patchouli, labdanum & fève tonka chaleureuse', 13000)">
+    Voir la description
+
+</button>
+
+    </div>
+
+</article>      
+
+<!-- PRODUIT 8 -->
+            <article class="product-card">  
+                <div class="product-image">
+<img
+            src="images/9 PM Rebel Afnan pour homme et femme.jpg"
+            alt="9 PM Rebel Afnan pour homme et femme">
+    </div>
+
+    <div class="product-info">
+
+        <h2>9 PM Rebel Afnan pour homme et femme</h2>
+
+        <p class="product-price">
+            35 000 FCFA
+        </p>
+
+        <button
+    class="description-button"
+    onclick="showProduct('9 PM Rebel Afnan pour homme et femme', 'images/9 PM Rebel Afnan pour homme et femme.jpg', 'Un parfum unisexe, fruité, gourmand, chaleureux et audacieux : 🍊 Mandarine fraîche et pétillante • 🍍 Ananas juteux et exotique • 🍏 Pomme Granny Smith croquante • 🌿 Mousse de chêne, bois de cèdre & vanille • 🍮 Caramel fondant • ✨ Bois secs, ambre gris & musc', 35000)">
+    Voir la description
+
+</button>
+
+    </div>
+
+</article> 
+
+<!-- PRODUIT 9 -->
+            <article class="product-card">  
+                <div class="product-image">
+<img
+            src="images/Shamokhi Fragrance World pour homme et femme.jpg"
+            alt="Shamokhi Fragrance World pour homme et femme">
+    </div>
+
+    <div class="product-info">
+
+        <h2>Shamokhi Fragrance World pour homme et femme</h2>
+
+        <p class="product-price">
+            13 000 FCFA
+        </p>
+
+        <button
+    class="description-button"
+    onclick="showProduct('Shamokhi Fragrance World pour homme et femme', 'images/Shamokhi Fragrance World pour homme et femme.jpg', 'Un parfum unisexe, oriental, chaud, épicé et élégant : 🍋 Agrumes frais et pétillants • 🌶️ Notes épicées & safran précieux • 🌿 Accords boisés chaleureux • 🍦 Vanille douce et enveloppante • ✨ Oud intense et mystérieux', 13000)">
+    Voir la description
+
+</button>
+
+    </div>
+
+</article> 
+
+
+
+
+
+
+
+        </section>
+
+    </main>
+
+
+    <!-- FENÊTRE DESCRIPTION -->
+    <div class="product-modal" id="productModal">
+
+        <div class="modal-content">
+
+            <button class="modal-close" onclick="closeProduct()">
+                ×
+            </button>
+
+            <div class="modal-image">
+
+                <img
+                    id="modalImage"
+                    src=""
+                    alt=""
+                >
+
+            </div>
+
+            <div class="modal-info">
+
+                <p class="modal-small-title">
+                    PARFUMERIE L'AUTHENTIK
+                </p>
+
+                <h2 id="modalName"></h2>
+
+                <p id="modalDescription"></p>
+
+                <div id="modalOffer" class="modal-offer"></div>
+
+                <div id="modalPromo" class="modal-promo"></div>
+
+                <a
+                    id="whatsappOrder"
+                    href="#"
+                    class="modal-order"
+                    target="_blank">
+                    Commander sur WhatsApp
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- WHATSAPP -->
+    <a
+        href="https://wa.me/22890119604"
+        class="whatsapp-button"
+        target="_blank"
+        aria-label="Contacter sur WhatsApp">
+        💬
+    </a>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
