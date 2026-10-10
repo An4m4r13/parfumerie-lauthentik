@@ -201,11 +201,11 @@ VERSION TELEPHONE
     .hero {
         min-height: calc(100vh - 130px);
         padding: 60px 7%;
-        background-position: center;
+        background-position: center 20%;
     }
 
     .hero-overlay {
-        background: rgba(255, 245, 248, 0.78);
+        background: rgba(218, 123, 151, 0.194);
     }
 
     .hero-small-title {
@@ -466,6 +466,7 @@ FENÊTRE DESCRIPTION
 }
 
 #modalDescription {
+    white-space: pre-line;
     color: #59434c;
     font-size: 14px;
     line-height: 1.8;
@@ -995,4 +996,26 @@ CONTACT TELEPHONE
         min-height: 350px;
     }
 
+}
+/* BOUTON RETOUR EN HAUT */
+.back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: #704052;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    z-index: 9999;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.back-to-top:hover {
+    background-color: #3d2933;
 }
