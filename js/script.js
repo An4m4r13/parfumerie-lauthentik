@@ -169,8 +169,24 @@ function addProductOffers() {
 
     });
 }
-
-
 document.addEventListener("DOMContentLoaded", function() {
     addProductOffers();
+});
+
+// BOUTON RETOUR EN HAUT
+document.addEventListener("DOMContentLoaded", function () {
+    const bouton = document.getElementById("backToTop");
+
+    if (!bouton) return;
+
+    window.addEventListener("scroll", function () {
+        bouton.style.display = window.scrollY > 300 ? "block" : "none";
+    });
+
+    bouton.addEventListener("click", function () {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
 });
